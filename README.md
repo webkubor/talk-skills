@@ -46,7 +46,14 @@ cp -r talk-skills/skills/* ~/.claude/skills/     # Claude Code
 
 ## 它不管什么
 
-**排版和渲染不在这里。** 字阶、留白、分页、配色、PDF 与长图输出归 [facet](https://github.com/webkubor/facet)——talk-skills 管说什么，facet 管长什么样，边界见 [BOUNDARY.md](BOUNDARY.md)。
+表达拆成四段，本仓只管第一段，其余各有归属，互不重复定义：
+
+| 说什么 | 长什么样 | 怎么念 | 在哪写 |
+|---|---|---|---|
+| **talk-skills** | [facet](https://github.com/webkubor/facet) | [voxflow](https://github.com/webkubor/voxflow) | [typora-Bloom-theme](https://github.com/webkubor/typora-Bloom-theme) |
+| 结构 · 语气 · 归属 | 字阶 · 留白 · 分页 · 渲染 | 声音设计 · 戏感 · 停顿 | 编辑器环境 |
+
+一句话判归属：「该说什么、先说哪句、这话得罪人吗」→ 本仓；「字号多大、留多少白」→ facet；「这句怎么念」→ voxflow。完整分工见 [BOUNDARY.md](BOUNDARY.md)。
 
 ## 为什么规则长这样
 
