@@ -7,7 +7,7 @@
 
 <p align="center">
   <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/license-MIT-0f766e.svg" /></a>
-  <img alt="Skills" src="https://img.shields.io/badge/skills-4-111827.svg" />
+  <img alt="Skills" src="https://img.shields.io/badge/skills-6-111827.svg" />
   <img alt="Claude Code" src="https://img.shields.io/badge/Claude%20Code-ready-d97706.svg" />
   <img alt="Codex" src="https://img.shields.io/badge/Codex-ready-111827.svg?logo=openai&logoColor=white" />
   <img alt="Cursor" src="https://img.shields.io/badge/Cursor-ready-000000.svg" />
@@ -15,25 +15,29 @@
 
 ---
 
-写文档、提单、写评审意见、准备分享——**内容对了但没人看完，或者看完了对方先想辩解**，通常不是内容问题，是这四件事没按顺序做：
+写文档、提单、发动态、做客诉接待——**内容对了但没人看完，或者看完了充斥着一股 AI 假人味**，通常不是内容问题，是这四件事没按顺序做，且缺乏细颗粒度的场域与语气拼装：
 
 ```
 ① 搭骨架   结论先行 · SCQA 四句 · MECE 不重不漏
-② 定读者   给人 or 给 agent；对上 or 对同侧
-③ 调语气   归因情境 · 自曝先行 · 认对方贡献 · 允许被推翻
+② 定读者   给人 or 给 agent；对上 or 对同侧；契合特定平台受众心智
+③ 调语气   归因情境 · 自曝先行 · 去 AI 味 · 拒绝空洞升华 · 允许被推翻
 ④ 当读者   以第一次看的人的身份通读，带清单查错
 ```
 
 跳过 ④ 的实测代价：一份 9918 字的技术报告，通读后揪出 20 处问题，**19 处是通读才发现的**——内容错位挂到邻节、引用已删章节、同一份文档两处结论互相打脸。脚本只能扫出词面残留。
 
-## 四个 skill
+## 六个 skill 与原子矩阵
 
-| skill | 管什么 | 什么时候用 |
+| skill / 矩阵 | 管什么 | 什么时候用 |
 |---|---|---|
 | **how-to-write** | 总纲：上面四步的完整方法 | 写任何要给别人看的文字之前 |
+| **atomic-matrix** | **5D 原子表达组合矩阵**：[查看速查表](skills/atomic-matrix.md) | 需要像拼积木一样拼装 [谁]×[在哪]×[场景]×[口吻]×[接待词] 时 |
+| **platform-voices** | 全平台表达风格分册：网易云/小红书/X/GitHub/公众号 | 针对特定平台的受众心智发帖与创作时 |
+| **scenario-openers** | 场景接待词、破冰与去 AI 味真实表达规范 | 客诉安抚、私信接待、神评开场、彻底消除 AI 论文腔 |
 | **peer-facing-writing** | 对同事的书面沟通：提单骨架、逐句替换表 | 写 issue、评审意见、跨团队报告 |
 | **talk-text-review** | 讲稿姿态：这份稿是「我教你们」还是「我跟你们聊」 | 对同级或高手分享之前 |
 | **talk-visual-review** | 讲稿视觉验收 | 出片之前 |
+
 
 ## 装上就能用
 

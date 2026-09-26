@@ -18,9 +18,12 @@
 ```
 要写的是给别人看的文字
 ├─ 不确定从哪下手        → how-to-write（总纲，四步顺序）
+├─ 需要拼装特定人设/场域  → atomic-matrix（5D 积木矩阵，自由组合）
+├─ 特定平台社交内容创作  → platform-voices（网易云/小红书/X/GitHub/公众号媒介心智）
+├─ 寻找真实接待词/开场白  → scenario-openers（私信接待/神评开场/极客钩子/去AI味）
 ├─ GitLab/GitHub 单据、评审意见、跨团队报告
 │                        → peer-facing-writing
-├─ 分享稿、演讲稿、公众号 → talk-text-review（先验姿态）
+├─ 分享稿、演讲稿、长文   → talk-text-review（先验姿态）
 │                          出片前再跑 talk-visual-review
 └─ 排版/渲染/出 PDF      → 不在本仓，见 BOUNDARY.md，用 facet
 ```

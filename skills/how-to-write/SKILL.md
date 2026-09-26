@@ -176,8 +176,12 @@ description: 「怎么写文字」的总纲——先按金字塔原理搭骨架�
 
 ---
 
-## 相关 skill
+## 相关 skill 与原子矩阵
 
+- `platform-voices`：全平台表达风格与媒介心智分册（网易云情怀/小红书生活/X极客/GitHub客观/公众号长文）
+- `scenario-openers`：场景接待词、破冰与去 AI 味真实表达规范（消除机器假人味，真人声腔与开场钩子）
+- `atomic-matrix`：[5D 原子表达组合矩阵速查](../atomic-matrix.md)（角色 × 平台 × 场景 × 口吻 × 开场白自由拼装）
 - `peer-facing-writing`：对同事书面沟通的完整版（提单骨架、逐句替换表、边界）
 - `talk-text-review`：讲稿姿态验收——这份稿子是「我教你们」还是「我跟你们聊」
 - `talk-visual-review`：讲稿视觉验收
+
