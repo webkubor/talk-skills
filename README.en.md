@@ -39,14 +39,20 @@ The cost of skipping ④, measured: a 9,918-word technical report, after a read-
 | **talk-visual-review** | Visual acceptance for the deck | Before producing the final visual |
 
 
-## Drop-in ready
-
+## One-line Multi-Agent & Local GUI Integration
+ 
+Automatically link to **~/.agents/skills** global standard center, **Claude Code**, **OpenAI Codex**, **DSH**, and **Local GUIs (Antigravity IDE)** via smart symlinks:
+ 
 ```bash
-git clone git@github.com:webkubor/talk-skills.git
-cp -r talk-skills/skills/* ~/.claude/skills/     # Claude Code
+# Option A: In the local repository directory
+./install.sh
+ 
+# Option B: One-line remote installation
+curl -fsSL https://raw.githubusercontent.com/webkubor/talk-skills/main/install.sh | bash
 ```
+ 
+> **Note**: Uses symlinks. Any future modifications to the local source code take effect immediately across all agents without reinstallation. See [AGENTS.md](AGENTS.md) for more agent configurations.
 
-Install paths for other agents, plus the reasoning behind each rule, in [AGENTS.md](AGENTS.md).
 
 ## What it doesn't cover
 

@@ -2,14 +2,24 @@
 
 给 AI agent 的使用与维护指引。人只需要读 [README](README.md)。
 
-## 安装
+## 一键全 Agent 与本地 GUI 接入
 
-| Agent | 装法 |
-|---|---|
-| Claude Code | `cp -r skills/* ~/.claude/skills/` |
-| Codex | `cp -r skills/* ~/.codex/skills/`，并在 `~/.codex/AGENTS.md` 里引用 |
-| Cursor | 内容贴进 `.cursor/rules/`（Cursor 不读 skill 目录） |
-| 其他 | 每个 `skills/*/SKILL.md` 都是自包含的 Markdown，直接读全文即可 |
+直接跑自带的 `./install.sh`，全自动建立软链接：
+
+```bash
+./install.sh
+# 或
+curl -fsSL https://raw.githubusercontent.com/webkubor/talk-skills/main/install.sh | bash
+```
+
+| Agent / 运行时 / GUI | 自动接入路径 | 说明 |
+|---|---|---|
+| **全局标准中心** | `~/.agents/skills/` | 全局基础底座（包含 DSH 统一挂载） |
+| **Claude Code** | `~/.claude/skills/` | 软链接直连，修改实时生效 |
+| **OpenAI Codex** | `~/.codex/skills/` | 软链接直连，修改实时生效 |
+| **本地 GUI (Antigravity IDE)** | `~/.gemini/config/skills/` | 软链接直连，GUI 侧栏即刻读取 |
+| **Cursor** | `.cursor/rules/` | 内容复制进 rules（Cursor 暂不读全局目录） |
+
 
 ## 什么时候该触发哪个
 

@@ -39,14 +39,20 @@
 | **talk-visual-review** | 讲稿视觉验收 | 出片之前 |
 
 
-## 装上就能用
+## 一键接入全 Agent 与本地 GUI（装上就能用）
+
+通过智能安装脚本，一秒全自动软链接接入 **~/.agents/skills** 全局中心、**Claude Code**、**OpenAI Codex**、**DSH** 以及 **本地 GUI (Antigravity IDE)**：
 
 ```bash
-git clone git@github.com:webkubor/talk-skills.git
-cp -r talk-skills/skills/* ~/.claude/skills/     # Claude Code
+# 方式 A：已在本地仓库目录下直接执行
+./install.sh
+
+# 方式 B：远程一行全自动接入
+curl -fsSL https://raw.githubusercontent.com/webkubor/talk-skills/main/install.sh | bash
 ```
 
-其他 agent 的装法、以及规范背后的依据见 [AGENTS.md](AGENTS.md)。
+> **提示**：采用软链接直连模式，后续源码无论怎么修改迭代，所有 Agent 均实时生效，无需重复安装。其他 Agent 与配置细节见 [AGENTS.md](AGENTS.md)。
+
 
 ## 它不管什么
 
